@@ -2,7 +2,7 @@
 // Resim türleri için abstraksiyon
 abstract class Image {
   protected $implementation;
-
+    //gişt
   public function __construct(Implementation $implementation) {
     $this->implementation = $implementation;
   }
