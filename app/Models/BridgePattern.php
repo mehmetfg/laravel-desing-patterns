@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class BridgePattern extends Model
 {
     use HasFactory;
+
+    
 }
+
