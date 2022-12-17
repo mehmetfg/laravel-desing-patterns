@@ -18,6 +18,7 @@ class Jpeg extends Image {
 }
 
 // PNG resim türü için uygulama
+//yeni
 class Png extends Image {
   public function display() {
     return $this->implementation->displayPng();
